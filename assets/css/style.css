@@ -1527,3 +1527,15 @@ body {
       width: 100%;
   }
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+.gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
